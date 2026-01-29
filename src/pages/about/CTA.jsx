@@ -1,7 +1,7 @@
 // CTA
 export default function CTA() {
   return (
-    <section className="bg-gray-50 py-20 text-center">
+    <section className="bg-gray-100 py-20 text-center">
       <h2 className="text-3xl font-semibold mb-6">¿Buscás tu próximo alquiler?</h2>
       <a
         href="/propiedades"

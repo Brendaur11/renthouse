@@ -1,7 +1,7 @@
 // Hero
 export default function Hero() {
   return (
-    <section className="relative max-w-7xl mx-auto px-6 py-20 text-center bg-blue-500 rounded-xl shadow-md my-26">
+    <section className="relative max-w-8xl px-6 py-20 mx-10 text-center bg-blue-500 rounded-xl shadow-lg my-26">
       <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-100">
         Conectamos personas con su próximo hogar
       </h1>

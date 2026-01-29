@@ -10,7 +10,7 @@ const values = [
 
 export default function Values() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-gray-100 py-20">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-center mb-12">Nuestros valores</h2>
 

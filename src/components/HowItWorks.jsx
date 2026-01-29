@@ -2,7 +2,7 @@ import { House, MapPin, Van } from "lucide-react";
 
 export default function HowItWorks() {
   return (
-    <section className="bg-blue-50 py-16 mx-20 rounded-3xl">
+    <section className="bg-blue-50 py-16 mx-10 rounded-3xl lg:mx-20">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-2 text-center">
           Cómo funciona
