@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/renthouse/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
