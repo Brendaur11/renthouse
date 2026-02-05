@@ -3,6 +3,7 @@ import { properties as mockProperties } from "../data/properties";
 
 const PropertiesContext = createContext();
 
+// Este provider se encarga de manejar el estado global de las propiedades y los filtros
 export function PropertiesProvider({ children }) {
   const [filters, setFilters] = useState({
     price: "",

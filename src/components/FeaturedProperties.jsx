@@ -1,4 +1,4 @@
-import { properties } from "../data/properties";
+import properties  from "../data/properties";
 import PropertyCard from "./PropertyCard";
 
 export default function FeaturedProperties() {

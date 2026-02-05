@@ -1,22 +1,27 @@
 import HeroSearch from "../components/HeroSearch";
-import FeaturedProperties from "../components/FeaturedProperties";
+// import FeaturedProperties from "../components/FeaturedProperties";
 import HowItWorks from "../components/HowItWorks";
-import Footer from "../components/Footer";
-import FiltersBar from "../components/FiltersBar";
-import PropertyCard from "../components/PropertyCard";
-import MapView from "../components/MapView";
-import { useProperties } from "../context/PropertiesContext";
-import TopCategories from "../components/TopCategories";
+// import FiltersBar from "../components/FiltersBar";
+// import PropertyCard from "../components/PropertyCard";
+// import MapView from "../components/MapView";
+// import { useProperties } from "../context/PropertiesContext";
+// import TopCategories from "../components/TopCategories";
+import Services from "../components/Services";
+import FinalCTA from "../components/FinalCTA";
+import Values from "../components/Values";
 
 export default function Home() {
-  const { properties } = useProperties();
+  // const { properties } = useProperties();
 
   return (
     <>
       <HeroSearch />
-      <TopCategories />
+      {/* <TopCategories /> */}
+      <Values />
       <HowItWorks />
-      <FeaturedProperties />
+      <Services />
+      {/* <FeaturedProperties /> */}
+      <FinalCTA />
       {/* <div className="max-w-7xl mx-auto px-6 py-24">
         <FiltersBar />
 
@@ -30,7 +35,6 @@ export default function Home() {
           <MapView />
         </div>
       </div> */}
-      <Footer />
     </>
   );
 }
