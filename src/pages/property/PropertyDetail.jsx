@@ -20,7 +20,11 @@ export default function PropertyDetail() {
           {property.location}
         </p>
 
-        <ImageGallery images={property.images} />
+        <img
+          src={property.images[0]}
+          className="h-56 w-full rounded-xl object-cover"
+        />
+
 
         <p className="text-3xl font-bold text-[#155dfc] mt-8">
           USD {property.price.toLocaleString()}
@@ -29,6 +33,8 @@ export default function PropertyDetail() {
         <p className="text-gray-700 mt-6 leading-relaxed">
           {property.description}
         </p>
+        
+        <ImageGallery images={property.images} />
       </div>
     </section>
   );
