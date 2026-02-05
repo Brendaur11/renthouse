@@ -9,7 +9,7 @@ const properties = [
     garage: 1,
     images: [
       "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
-      "https://images.unsplash.com/photo-1572120360610-d971b9b78825",
+      "https://images.unsplash.com/photo-1649083048337-4aeb6dda80bb?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
     ],
     description:
