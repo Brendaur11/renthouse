@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import properties from "../../data/properties";
 import ImageGallery from "../../components/ImageGallery";
 
@@ -11,6 +11,12 @@ export default function PropertyDetail() {
   return (
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6">
+
+        <Link to="/propiedades">
+          <button className="bg-blue-600 text-white my-4 px-4 py-2 rounded-lg cursor-pointer">
+            Volver
+          </button>
+        </Link>
         
         <h1 className="text-4xl font-bold mb-4">
           {property.title}
